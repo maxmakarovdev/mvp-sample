@@ -9,3 +9,5 @@
 gradle/
 gradlew
 gradlew.bat
+gradle.properties
+app/build
