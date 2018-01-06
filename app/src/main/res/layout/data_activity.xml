@@ -9,7 +9,8 @@
         android:id="@+id/progress"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/text"
@@ -17,6 +18,15 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:textSize="20sp"
+        android:visibility="gone"
         tools:text="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/button_load"
+        android:visibility="visible" />
 
 </RelativeLayout>

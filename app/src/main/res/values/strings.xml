@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">mvp</string>
 
+    <string name="button_own">Own</string>
     <string name="button_mosby">Mosby</string>
     <string name="button_moxy">Moxy</string>
+
+    <string name="button_load">Load data</string>
 </resources>
